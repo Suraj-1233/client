@@ -18,9 +18,10 @@ function Verifyvoter() {
       console.info("contract call successs", data);
       alert(" thanks for your time");
     } catch (err) {
-      console.error("contract call failure", err);
+      console.error("contract call failure", err.message);
       
-
+      alert(err);
+      
     }
   }
 
