@@ -7,31 +7,31 @@ export const navlinks = [
     link: '/',
   },
   {
-    name: 'campaign',
+    name: 'RegisterCandidates',
     imgUrl: createCampaign,
-    link: '/create-campaign',
+    link: '/RegisterCandidates',
   },
   {
-    name: 'payment',
+    name: 'StartVoting',
     imgUrl: payment,
-    link: '/',
-    disabled: true,
+    link: '/StartVoting',
+   
   },
   {
-    name: 'withdraw',
+    name: 'RemoveCandidates',
     imgUrl: withdraw,
-    link: '/',
-    disabled: true,
+    link: '/RemoveCandidates',
+    
   },
   {
-    name: 'profile',
+    name: 'winner',
     imgUrl: profile,
-    link: '/profile',
+    link: '/winner',
   },
   {
-    name: 'logout',
+    name: 'WhiteList',
     imgUrl: logout,
-    link: '/',
-    disabled: true,
+    link: '/WhiteList',
+    
   },
 ];

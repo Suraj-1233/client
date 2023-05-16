@@ -1,0 +1,3 @@
+window.env = {
+  "API_URL": "0x153C7837Ce3ad6774070C99C671dfab15ff019A0"
+};
